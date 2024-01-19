@@ -1,0 +1,65 @@
+html,body {
+    height: 100%;
+    margin: 0;
+    font-family: arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(burj-al-arab-5919133.jpg);
+    background-position: center;      
+    background-repeat: no-repeat;      
+    background-attachment: fixed;      
+    background-size: cover;      
+    background-color: #464646;
+}
+
+.previu-conteiner{
+    text-align: center;
+    background: #46464685;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    border-radius: 30px;
+    color: #fff;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: fantasy;
+    margin-top: 15px;
+}
+
+.opisanie{
+    margin-left: 5px;
+}
+
+.kurort{
+    margin-left: 10px;
+}
+
+.hotel{
+    margin-left: 10px;
+}
+
+.tur{
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+a{
+    color: #fff;
+    text-decoration-line: none;
+    border: 3px solid ;
+    cursor: pointer;
+    padding: 10px 20px;
+    background: transparent;
+    border-radius: 15px;
+    transition: all 0.5s;
+}
+
+a:hover{
+    border: 2px solid #ffffff98;
+    border-radius: 30px;
+}
